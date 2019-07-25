@@ -1,11 +1,12 @@
-def fizzbuzz(num)
-  if num % 15 == 0
-    return "FizzBuzz"
-  elsif num % 3 == 0
-    return "Fizz"
-  elsif num % 5 == 0
-    return "Buzz"
-  else
-    return nil
-  end
-end
+def fizzbuzz(int)
+    if int % 3 == 0 && int % 5 == 0
+        return "FizzBuzz"
+    elsif int % 5 == 0
+        return "Buzz"
+    elsif int % 3 == 0
+        return "Fizz"
+    else
+        nil
+    end
+
+ end
